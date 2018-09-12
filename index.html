@@ -19,13 +19,15 @@
   </header>
 
   <main id="maincontent">
-    <!-- TODO: Add skip link to skip over map -->
-    <section id="map-container" aria-labeledby="aria-map-description" role="application">
+
+    <a href="#restaurants-section" class="hide-element">Skip to restaurants</a>
+    
+    <section id="map-container" aria-labelledby="aria-map-description" role="application">
       <div id="map"></div>
     </section>
-    <label id="aria-map-description" class="aria-map-description">Leaflet map application</label>
+    <label id="aria-map-description" class="hide-element">Leaflet map application</label>
     
-    <section>
+    <section id="restaurants-section">
       <div class="filter-options">
         <h2>Filter Results</h2>
 
@@ -33,12 +35,12 @@
           <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-labelledby="neighborhoods-label">
             <option value="all">All Neighborhoods</option>
           </select>
-          <label id="neighborhoods-label" class="filter-label">by neighborhoods</label>
+          <label id="neighborhoods-label" class="hide-element">by neighborhoods</label>
         
           <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-labelledby="cuisine-label">
             <option value="all">All Cuisines</option>
           </select>
-          <label id="cuisine-label" class="filter-label">by cuisine</label>
+          <label id="cuisine-label" class="hide-element">by cuisine</label>
         </div>
         
       </div>

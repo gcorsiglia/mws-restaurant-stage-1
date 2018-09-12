@@ -102,13 +102,17 @@ nav h1 a {
   text-transform: uppercase;
 }
 
+#breadcrumb-container {
+  width: 100%;
+  background-color: #eee;
+  width: 100%;
+}
+
 #breadcrumb {
   padding: 10px 40px 16px;
   list-style: none;
-  background-color: #eee;
   font-size: 17px;
   margin: 0 1rem;
-  width: 100%;
 }
 
 /* Display list items side by side */
@@ -379,9 +383,16 @@ nav h1 a {
   color: #666;
 }
 
-.aria-map-description,
-.filter-label {
-  display: none;
+.hide-element {
+  border: 0;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 @media screen and (min-width: 850px) {
