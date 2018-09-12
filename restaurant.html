@@ -43,19 +43,22 @@
       <p id="restaurant-cuisine"></p>
     </section>
 
+    <!-- Beginning map -->
+    <section id="map-container" aria-labeledby="aria-map-description" role="application">
+        <div id="map"></div>
+    </section>
+    
+    <label id="aria-map-description" class="hide-element">Leaflet map application</label>
+    <!-- End map -->
+
     <section id="restaurant-address-hours">
       <p id="restaurant-address"></p>
-      <label id="restaurant-address-label" class="hide-element">address</label>
       
-      <!-- Beginning map -->
-      <section id="map-container" aria-labeledby="aria-map-description" role="application">
-        <div id="map"></div>
-      </section>
-      <label id="aria-map-description" class="hide-element">Leaflet map application</label>
-      <!-- End map -->
-    
+      <label id="restaurant-address-label" class="hide-element">address</label>
+
       <div class="restaurant-hours">
           <table id="restaurant-hours" aria-labelledby="restaurant-hours-label"></table>
+          
           <label id="restaurant-hours-label" class="hide-element">hours of operation</label>
       </div>
     </section>
