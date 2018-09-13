@@ -31,7 +31,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #3397db;
+	color: #185D8C;
 	text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ section {
 
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #dbdbdb;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -132,13 +132,13 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-  color: #0275d8;
+  color: #185D8C;
   text-decoration: none;
 }
 
 /* Add a color on mouse-over */
 #breadcrumb li a:hover {
-  color: #01447e;
+  color: #062132;
   text-decoration: underline;
 }
 
@@ -153,8 +153,8 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: auto;
-  background-color: #3397DB;
-  padding: 1rem;
+  background-color: #185D8C;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -170,6 +170,8 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
 }
 
 .filter-box select {
@@ -239,7 +241,7 @@ nav h1 a {
 #restaurants-list li a {
   background-color: orange;
   border-bottom: 3px solid #eee;
-  color: #fff;
+  color: #333;
   display: inline-block;
   font-size: 10pt;
   margin: 15px 0 0;
@@ -252,7 +254,8 @@ nav h1 a {
 #restaurants-list li a:hover,
 #restaurants-list li a:focus {
   cursor: pointer;
-  background: #3397DB;
+  background: #185D8C;
+  color: #fff;
 }
 
 /* ====================== Restaurant Details ====================== */
@@ -288,7 +291,7 @@ nav h1 a {
 }
 
 .inside #map {
-  background-color: #ccc;
+  background-color: #eee;
   height: 100%;
   width: 100%;
 }
@@ -300,7 +303,7 @@ nav h1 a {
 }
 
 #restaurant-name {
-  color: #f18200;
+  color: #8C4118;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
@@ -308,6 +311,8 @@ nav h1 a {
   margin: 15px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
+  letter-spacing: 0.09rem;
+  font-size: 2rem;
 }
 
 #restaurant-img {
@@ -357,11 +362,12 @@ nav h1 a {
 }
 
 #reviews-container h3 {
-  color: #f58500;
-  font-size: 24pt;
+  color: #8C4118;
+  font-size: 1.7rem;
   font-weight: 300;
-  letter-spacing: -1px;
+  letter-spacing: 0.09rem;
   padding-bottom: 1pt;
+  text-transform: uppercase;
 }
 
 #reviews-list {
@@ -389,7 +395,6 @@ nav h1 a {
 
 .review-container {
   background-color: #fff;
-  border: 2px solid #f3f3f3;
   padding: 1rem;
 }
 
